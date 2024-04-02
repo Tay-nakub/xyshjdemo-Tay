@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.viewpager:viewpager:1.0.0@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../Gradle/gradle-7.6.4/caches/transforms-3/8775e336d0060c2b34cd6097d7258562/transformed/viewpager-1.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../Gradle/gradle-7.6.4/caches/transforms-3/c0e7a066e33b57020e429a51a78fea8f/transformed/viewpager-1.0.0/res" />
+      <root url="jar://$PROJECT_DIR$/../../Gradle/gradle-7.6.4/caches/transforms-3/6821ee87189b5d562c8251e5bb53ef2d/transformed/viewpager-1.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../Gradle/gradle-7.6.4/caches/transforms-3/6821ee87189b5d562c8251e5bb53ef2d/transformed/viewpager-1.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../Gradle/gradle-7.6.4/caches/transforms-3/6821ee87189b5d562c8251e5bb53ef2d/transformed/viewpager-1.0.0/AndroidManifest.xml" />
+      <root url="jar://C:/Gradle/gradle-7.6.4/caches/transforms-3/6821ee87189b5d562c8251e5bb53ef2d/transformed/viewpager-1.0.0/jars/classes.jar!/" />
+      <root url="file://C:/Gradle/gradle-7.6.4/caches/transforms-3/6821ee87189b5d562c8251e5bb53ef2d/transformed/viewpager-1.0.0/res" />
+      <root url="file://C:/Gradle/gradle-7.6.4/caches/transforms-3/6821ee87189b5d562c8251e5bb53ef2d/transformed/viewpager-1.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../Gradle/gradle-7.6.4/caches/modules-2/files-2.1/androidx.viewpager/viewpager/1.0.0/db045f92188b9d247d5f556866f8861ab68528f0/viewpager-1.0.0-sources.jar!/" />
+      <root url="jar://C:/Gradle/gradle-7.6.4/caches/modules-2/files-2.1/androidx.viewpager/viewpager/1.0.0/db045f92188b9d247d5f556866f8861ab68528f0/viewpager-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

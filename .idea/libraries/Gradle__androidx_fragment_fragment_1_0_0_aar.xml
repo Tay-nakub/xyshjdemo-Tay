@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.fragment:fragment:1.0.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/../../Gradle/gradle-7.6.4/caches/transforms-3/2e07d1efbd55b6ddce478f33a971924b/transformed/fragment-1.0.0/annotations.zip!/" />
+      <root url="jar://C:/Gradle/gradle-7.6.4/caches/transforms-3/2e07d1efbd55b6ddce478f33a971924b/transformed/fragment-1.0.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../Gradle/gradle-7.6.4/caches/transforms-3/f6d7602638e9ed6dcc0705d7de83e39a/transformed/fragment-1.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../Gradle/gradle-7.6.4/caches/transforms-3/eb367fa9c4fdeafbbc633c57e68ff495/transformed/fragment-1.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../Gradle/gradle-7.6.4/caches/transforms-3/2e07d1efbd55b6ddce478f33a971924b/transformed/fragment-1.0.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../Gradle/gradle-7.6.4/caches/transforms-3/2e07d1efbd55b6ddce478f33a971924b/transformed/fragment-1.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../Gradle/gradle-7.6.4/caches/transforms-3/2e07d1efbd55b6ddce478f33a971924b/transformed/fragment-1.0.0/res" />
+      <root url="file://C:/Gradle/gradle-7.6.4/caches/transforms-3/2e07d1efbd55b6ddce478f33a971924b/transformed/fragment-1.0.0/AndroidManifest.xml" />
+      <root url="jar://C:/Gradle/gradle-7.6.4/caches/transforms-3/2e07d1efbd55b6ddce478f33a971924b/transformed/fragment-1.0.0/jars/classes.jar!/" />
+      <root url="file://C:/Gradle/gradle-7.6.4/caches/transforms-3/2e07d1efbd55b6ddce478f33a971924b/transformed/fragment-1.0.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../Gradle/gradle-7.6.4/caches/modules-2/files-2.1/androidx.fragment/fragment/1.0.0/bcd167792ec03e930d5c8345c99ae07b2627de84/fragment-1.0.0-sources.jar!/" />
+      <root url="jar://C:/Gradle/gradle-7.6.4/caches/modules-2/files-2.1/androidx.fragment/fragment/1.0.0/bcd167792ec03e930d5c8345c99ae07b2627de84/fragment-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

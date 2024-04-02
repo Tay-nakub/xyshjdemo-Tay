@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#33000000"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="COMPORT: "
+        />
+    <EditText
+        android:id="@+id/dev"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="请输入串中地址"
+        android:text="/dev/ttyS1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BITS PER: "
+            />
+    <EditText
+        android:id="@+id/baudrate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="请输入波特率"
+        android:text="57600"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/connect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Connect/连接" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+
+            android:id="@+id/hdh"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="Slot No"
+            android:text="101"/>
+        <Button
+            android:id="@+id/driverhd"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="(เบิก)" />
+<!--        驱动出货-->
+        <Button
+            android:id="@+id/querydhstatus"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="(เช็คสถานะ)" />
+<!--        查询货道状态-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#7ecdd8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Command: "
+            />
+
+        <EditText
+            android:id="@+id/txtCommand"
+            android:layout_width="138dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Base:16"
+            android:inputType="text"
+            android:text="06" />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Length: "
+            />
+
+     <EditText
+            android:id="@+id/txtLength"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Base:10"
+            android:inputType="number"
+            android:text="" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#7ecdd8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/txtInput"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Input data"
+            android:inputType="text"
+            android:text="01 00 00 7F" />
+
+        <Button
+            android:background="#1c8eae"
+            android:id="@+id/btnSubmit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Submit" />
+        <!--        驱动出货-->
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/dhstatus"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></ListView>
+
+
+</LinearLayout>
