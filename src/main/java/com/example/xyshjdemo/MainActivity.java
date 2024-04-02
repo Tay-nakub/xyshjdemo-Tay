@@ -551,11 +551,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Nullable
     public static String bytesToHexString(byte[] bytes) {
         StringBuilder sb = new StringBuilder("");
-
         if (bytes == null || bytes.length <= 0) {
             return null;
         }
-
         for (int i = 0; i < bytes.length; i++) {
             int v = bytes[i] & 0xFF;
             String hv = Integer.toHexString(v);
@@ -583,7 +581,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         for (int i = 0; i < hexArray.length; i++) {
             String hex = hexArray[i];
             bytes[i] = Integer.valueOf(hex, 16).byteValue();
-
         }
         return bytes;
     }

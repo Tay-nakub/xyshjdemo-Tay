@@ -19,7 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="请输入串中地址"
+        android:hint="Please enter the address in the string"
         android:text="/dev/ttyS1" />
     </LinearLayout>
 
